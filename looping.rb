@@ -1,5 +1,7 @@
 def happy_new_year
-  # your code here
+  (10..1).each do |i|
+    puts "#{i}"
+    puts "Happy New Year!"
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
